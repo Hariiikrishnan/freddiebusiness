@@ -1,0 +1,9 @@
+{
+  "name": "freddiebusiness-clone",
+  "version": "1.0.0",
+  "description": "100% replicated Framer HTML and dependencies",
+  "scripts": {
+    "dev": "npx serve -s .",
+    "start": "npx serve -s ."
+  }
+}
