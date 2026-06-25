@@ -1,0 +1,5 @@
+import{t as e}from"./rolldown-runtime.BXVgRTY5.mjs";function t(e,t){return{breakpoints:[{hash:`et79jy`,mediaQuery:`(min-width: 1499px)`},{hash:`1k0bj9z`,mediaQuery:`(min-width: 810px) and (max-width: 1498px)`},{hash:`vitz4g`,mediaQuery:`(max-width: 809px)`}],description:`All-in-One Digital Excellence
+From strategy to execution, we craft digital identities, compelling visuals, and engaging campaigns—all under one roof.
+
+`,elements:{},framerSearch:{index:!0},robots:`max-image-preview:large`,serializationId:`framer-Sqzsg`,socialImage:`/local_assets/assets/wkj06n2OcxJVQoYMFXr9HQk0Q.jpg`,title:`About Us | Freddie Business`,viewport:`width=device-width`}}var n,r,i=e((()=>{n=1,r={exports:{metadataVersion:{type:`variable`,annotations:{framerContractVersion:`1`}},default:{type:`function`,annotations:{framerContractVersion:`1`}},__FramerMetadata__:{type:`variable`}}}}));export{n as i,i as n,t as r,r as t};
+//# sourceMappingURL=s2lsDv_cx.Dowz40yy.mjs.map

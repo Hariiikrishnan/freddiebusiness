@@ -1,0 +1,3 @@
+import{t as e}from"./rolldown-runtime.BXVgRTY5.mjs";function t(e,t){return{breakpoints:[{hash:`lys71v`}],description:` Craft Your Success: Tailored Strategies to Elevate Your Aspirations
+`,elements:{},framerSearch:{index:!0},robots:`max-image-preview:large`,serializationId:`framer-xNzS8`,socialImage:`/local_assets/assets/wkj06n2OcxJVQoYMFXr9HQk0Q.jpg`,title:` Individuals | Freddie Business`,viewport:`width=1499`}}var n,r,i=e((()=>{n=1,r={exports:{metadataVersion:{type:`variable`,annotations:{framerContractVersion:`1`}},default:{type:`function`,annotations:{framerContractVersion:`1`}},__FramerMetadata__:{type:`variable`}}}}));export{n as i,i as n,t as r,r as t};
+//# sourceMappingURL=AzbXK4Tl8.VPC23XJt.mjs.map
