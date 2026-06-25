@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  freddie-clone:
+    build: .
+    container_name: freddie-clone
+    ports:
+      - "80:80"
+    restart: unless-stopped
