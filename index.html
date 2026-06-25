@@ -631,11 +631,22 @@ we’ve made</p></div></div></div></div></div><div class="framer-1qroe26" data-f
 <script>
   window.addEventListener('load', () => {
     if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+      // Prevent infinite loop by checking a sessionStorage flag
+      if (sessionStorage.getItem('framer_redirected') === window.location.pathname) {
+          console.error("Hydration failed or link click was not intercepted. Stopping infinite loop.");
+          return;
+      }
+      sessionStorage.setItem('framer_redirected', window.location.pathname);
+      
       setTimeout(() => {
           const links = Array.from(document.querySelectorAll('a'));
           const target = links.find(a => a.getAttribute('href') && a.getAttribute('href').includes(window.location.pathname.replace('/', '')));
-          if (target) target.click();
-      }, 100);
+          if (target) {
+              target.click();
+              // Clear flag if click was intercepted (no hard reload)
+              setTimeout(() => sessionStorage.removeItem('framer_redirected'), 2000);
+          }
+      }, 1000); // Wait 1 second for React to fully hydrate
     }
   });
 </script>
